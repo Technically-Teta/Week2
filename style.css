@@ -47,4 +47,5 @@ font-size: large;
 .right{
     width: 600px;
     float: left;
+    margin-left: 30px;
 }
