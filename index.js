@@ -13,3 +13,10 @@ let myDiv = document.getElementById('myDiv')
 
 // create a checkbox element
 let checkbox = document.createElement("input")
+
+//Assign attributues to the created checkbox
+
+checkbox.type = "checkbox"
+checkbox.name = "name"
+checkbox.value = " value"
+checkbox.id = "id"
