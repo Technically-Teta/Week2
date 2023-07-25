@@ -20,3 +20,7 @@ checkbox.type = "checkbox"
 checkbox.name = "name"
 checkbox.value = " value"
 checkbox.id = "id"
+
+//make the label for the checkbox
+
+let label = document.createElement("label")
