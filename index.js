@@ -30,3 +30,6 @@ label.htmlFor = "id"
 
 //append the created text to the created label
 label.appendChild( document.createTextNode("This creates the label for the checkbox"))
+
+// append checkbox and label to div
+myDiv.appendChild(checkbox)
