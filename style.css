@@ -38,3 +38,8 @@ font-size: large;
     font-family: sans-serif;
     font-size: large;
 }
+
+:left{
+    width: 600px;
+    float: left;
+}
