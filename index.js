@@ -24,3 +24,9 @@ checkbox.id = "id"
 //make the label for the checkbox
 
 let label = document.createElement("label")
+
+//assign attributues for the label
+label.htmlFor = "id"
+
+//append the created text to the created label
+label.appendChild( document.createTextNode("This creates the label for the checkbox"))
