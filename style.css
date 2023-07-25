@@ -35,4 +35,6 @@ font-size: large;
 
 .description {
     width: 600px;
+    font-family: sans-serif;
+    font-size: large;
 }
