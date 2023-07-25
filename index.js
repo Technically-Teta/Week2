@@ -35,3 +35,5 @@ label.appendChild( document.createTextNode("This creates the label for the check
 myDiv.appendChild(checkbox)
 myDiv.appendChild(label)
 
+// add css rule to checkbox using id
+checkbox.className = "checked"
