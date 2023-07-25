@@ -63,3 +63,7 @@ h1{
 .checked {
     text-decoration: line-through;
 }
+
+ul{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
