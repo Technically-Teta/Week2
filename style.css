@@ -39,7 +39,7 @@ font-size: large;
     font-size: large;
 }
 
-:left{
+.left{
     width: 600px;
     float: left;
 }
