@@ -34,3 +34,4 @@ label.appendChild( document.createTextNode("This creates the label for the check
 // append checkbox and label to div
 myDiv.appendChild(checkbox)
 myDiv.appendChild(label)
+
