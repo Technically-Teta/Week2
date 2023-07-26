@@ -1,15 +1,19 @@
-let id = document.getElementById('head');
-id.style.color = 'green'
+
+
+
+/////////////////LIST CREATION PROCESS 
 //create a new list item and store it in a variable.
 let newListItem = document.createElement('li')
 
 // Now let's update the text content of that list item.
-newListItem.textContent - 'Jalapenos'
+newListItem.textContent = 'Jalapenos'
 
 //add that list item as a child of the ul.
 document.querySelector('ul').appendChild(newListItem)
 
-let myDiv = document.getElementById('myDiv')
+
+////////////CHECKBOX CREATION PROCESS
+const myDiv = document.getElementById("myDiv")
 
 // create a checkbox element
 let checkbox = document.createElement("input")
@@ -19,14 +23,14 @@ let checkbox = document.createElement("input")
 checkbox.type = "checkbox"
 checkbox.name = "name"
 checkbox.value = " value"
-checkbox.id = "id"
+checkbox.id = "checkboxId"
 
 //make the label for the checkbox
 
 let label = document.createElement("label")
 
 //assign attributues for the label
-label.htmlFor = "id"
+label.htmlFor = "checkboxId";
 
 //append the created text to the created label
 label.appendChild( document.createTextNode("This creates the label for the checkbox"))
@@ -35,5 +39,7 @@ label.appendChild( document.createTextNode("This creates the label for the check
 myDiv.appendChild(checkbox)
 myDiv.appendChild(label)
 
-// add css rule to checkbox using id
-checkbox.className = "checked"
+
+// make checkbox visible 
+
+checkbox.className = "visible"
