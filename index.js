@@ -3,6 +3,8 @@
 
 let grocerybtn = document.getElementById('grocerybtn')
 
+//create the function that handles it all
+
 
 // ul.addEventListener('click', function handleClick() {
 //   // This code will be executed when the user clicks on the ul element.
@@ -58,7 +60,7 @@ const box = document.getElementById('box');
 
 // //  Change text color on mouseover
 box.addEventListener('mouseover', function handleMouseOver() {
-   box.style.color = 'red';
+   box.style.color = 'purple';
 });
 
 // // Change text color back on mouseout
