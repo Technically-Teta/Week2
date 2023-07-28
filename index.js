@@ -1,5 +1,8 @@
 // /////////////////LIST CREATION PROCESS 
-// let ul = document.querySelector('ul');
+// Make  button that when clicked Creates a list 
+
+let grocerybtn = document.getElementById('grocerybtn')
+
 
 // ul.addEventListener('click', function handleClick() {
 //   // This code will be executed when the user clicks on the ul element.
@@ -36,7 +39,7 @@
 //ADDITION 1: 
 //change the document's text color on click:
 
-//create the button and assign the id
+//create the button and assign the id, ALWAYS SELECT DOCUMENT SINCE IT APPLIES TO THE DOCUMENT
 let btn = document.getElementById('btn')
 
 // add event listener
