@@ -86,7 +86,7 @@ getCurrentDateTime();
 //ADDITION 4:
 //Show an alert when the user comes into the page:
 function glutenFreeAlert(){
-let welcomeIn = "Get ready for some mouth watering muffins!"
+let welcomeIn = "Get ready to create the most mouth watering muffins you've ever had!"
 alert(welcomeIn)
 }
 
