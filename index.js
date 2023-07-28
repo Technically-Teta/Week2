@@ -60,7 +60,7 @@ const box = document.getElementById('box');
 
 // //  Change text color on mouseover
 box.addEventListener('mouseover', function handleMouseOver() {
-   box.style.color = 'purple';
+   box.style.color = 'green';
 });
 
 // // Change text color back on mouseout
