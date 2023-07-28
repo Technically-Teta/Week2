@@ -6,13 +6,6 @@ let grocerybtn = document.getElementById('grocerybtn')
 //create the function that handles it all
 
 
-// ul.addEventListener('click', function handleClick() {
-//   // This code will be executed when the user clicks on the ul element.
-//   let newListItem = document.createElement('li');
-//   newListItem.textContent = 'Jalapenos';
-//   ul.appendChild(newListItem);
-// });
-
 
 // let checkbox = document.createElement('input');
 // checkbox.type = 'checkbox';
@@ -37,6 +30,11 @@ let grocerybtn = document.getElementById('grocerybtn')
 // // append checkbox and label to div
 // myDiv.appendChild(checkbox)
 // myDiv.appendChild(label)
+
+//
+
+
+
 
 //ADDITION 1: 
 //change the document's text color on click:
@@ -85,6 +83,11 @@ function getCurrentDateTime() {
 getCurrentDateTime();
 
 
+//ADDITION 4:
+//Show an alert when the user comes into the page:
+function glutenFreeAlert(){
+alert("")
 
+}
 
  
