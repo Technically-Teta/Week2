@@ -1,12 +1,10 @@
 // /////////////////LIST CREATION PROCESS 
-// let ul = document.querySelector('ul');
+// Make  button that when clicked Creates a list 
 
-// ul.addEventListener('click', function handleClick() {
-//   // This code will be executed when the user clicks on the ul element.
-//   let newListItem = document.createElement('li');
-//   newListItem.textContent = 'Jalapenos';
-//   ul.appendChild(newListItem);
-// });
+let grocerybtn = document.getElementById('grocerybtn')
+
+//create the function that handles it all
+
 
 
 // let checkbox = document.createElement('input');
@@ -33,10 +31,15 @@
 // myDiv.appendChild(checkbox)
 // myDiv.appendChild(label)
 
+//
+
+
+
+
 //ADDITION 1: 
 //change the document's text color on click:
 
-//create the button and assign the id
+//create the button and assign the id, ALWAYS SELECT DOCUMENT SINCE IT APPLIES TO THE DOCUMENT
 let btn = document.getElementById('btn')
 
 // add event listener
@@ -55,7 +58,7 @@ const box = document.getElementById('box');
 
 // //  Change text color on mouseover
 box.addEventListener('mouseover', function handleMouseOver() {
-   box.style.color = 'red';
+   box.style.color = 'green';
 });
 
 // // Change text color back on mouseout
@@ -80,6 +83,11 @@ function getCurrentDateTime() {
 getCurrentDateTime();
 
 
-
+//ADDITION 4:
+//Show an alert when the user comes into the page:
+function glutenFreeAlert(){
+let welcomeIn = "Get ready to create the most mouth watering muffins you've ever had!"
+alert(welcomeIn)
+}
 
  
